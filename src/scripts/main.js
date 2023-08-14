@@ -9,10 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         let numeroMaximo = document.getElementById('numero-maximo').value;
         numeroMaximo = parseInt(numeroMaximo);
-    
 
-        let numeroAleatorio = Math.random() * numeroMaximo;
-        numeroAleatorio = Math.floor(numeroAleatorio + 1);
         if (numeroMaximo <= numeroMinimo) {
             const erro = document.getElementById('erro-maximo-minimo');
             erro.style.display = 'block';
