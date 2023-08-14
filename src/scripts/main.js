@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
             erro.innerText = 'Valor mínimo precisa ser maior que o maximo';
         } else {
             document.querySelector('.resultado').style.display = 'block';
-            document.getElementById('resultado-valor').innerText = numeroAleatorio;
+            document.getElementById('resultado-valor').innerText = randomInteger(numeroMinimo, numeroMaximo);
         }
         
     })
