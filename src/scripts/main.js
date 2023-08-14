@@ -1,7 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('form-sorteador').addEventListener('submit', function(e) {
-        const resultado = document.querySelector('.resultado')
-
         e.preventDefault();
 
         let numeroMinimo = document.getElementById('numero-minimo').value;
